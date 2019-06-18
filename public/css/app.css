@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.hidden {
+  display: none !important;
+}
+
+button {
+  text-align: center;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+.php_display {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-around;
+          justify-content: space-around;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+  margin: 30px;
+}
+
+.php_display .item {
+  width: 200px;
+  margin: 20px;
+}
+
+.php_display .item h3 {
+  height: 50px;
+}
+
+.php_display .item img {
+  width: 100%;
+}
+
+.php_display .item p {
+  height: 20px;
+}
+
