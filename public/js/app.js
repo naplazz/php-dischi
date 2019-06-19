@@ -10726,6 +10726,10 @@ $(document).ready(function () {
           var html = template(context);
           $('.jsonappend').append(html);
         }
+
+        $('#btn').click(function () {
+          location.reload();
+        });
       },
       error: function error() {
         alert('error');

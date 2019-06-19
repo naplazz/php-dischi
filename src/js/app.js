@@ -21,6 +21,9 @@ $(document).ready(function() {
           $('.jsonappend').append(html)
 
         }
+        $('#btn').click(function() {
+          location.reload();
+        });
 
       },
       error: function() {
