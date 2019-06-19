@@ -7,13 +7,35 @@
   display: none !important;
 }
 button {
-  text-align: center;
-  margin:auto;
+  margin: 20px 45%;
+  background-color: green;
+  height: 30px;
+  width: 100px;
+  color: white;
 }
 h1 {
   text-align: center;
 }
 .php_display {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 30px;
+  .item {
+    width: 200px;
+    margin: 20px;
+    h3 {
+      height: 50px;
+    }
+    img {
+      width: 100%
+    }
+    p {
+      height: 20px;
+    }
+  }
+};
+.jsonappend {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;

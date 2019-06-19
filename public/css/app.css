@@ -9,8 +9,11 @@
 }
 
 button {
-  text-align: center;
-  margin: auto;
+  margin: 20px 45%;
+  background-color: green;
+  height: 30px;
+  width: 100px;
+  color: white;
 }
 
 h1 {
@@ -41,6 +44,33 @@ h1 {
 }
 
 .php_display .item p {
+  height: 20px;
+}
+
+.jsonappend {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-around;
+          justify-content: space-around;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+  margin: 30px;
+}
+
+.jsonappend .item {
+  width: 200px;
+  margin: 20px;
+}
+
+.jsonappend .item h3 {
+  height: 50px;
+}
+
+.jsonappend .item img {
+  width: 100%;
+}
+
+.jsonappend .item p {
   height: 20px;
 }
 

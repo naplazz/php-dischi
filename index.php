@@ -29,6 +29,20 @@
     </div>
     <?php endforeach; ?>
   </div>
+  <script id="entry-template" type="text/x-handlebars-template">
+  <!-- <div class="entry">
+    <h3>{{title}}</h3>
+    <div class="body">
+      {{body}}
+    </div>
+  </div> -->
+  <div class="item">
+      <h3>{{title}}</h3>
+      <p>{{artist}}</p>
+      <img src="{{img}}" alt="">
+
+  </div>
+</script>
 
 <!-- My Js --> <script src="public/js/app.js" charset="utf-8"></script>
 </body>

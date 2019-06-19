@@ -10714,7 +10714,18 @@ $(document).ready(function () {
       method: 'GET',
       success: function success(data) {
         var dischi = JSON.parse(data);
-        console.log(data);
+
+        for (var i = 0; i < dischi.length; i++) {
+          var source = document.getElementById("entry-template").innerHTML;
+          var template = Handlebars.compile(source);
+          var context = {
+            title: dischi[i].title,
+            artist: dischi[i].artist,
+            img: dischi[i].img
+          };
+          var html = template(context);
+          $('.jsonappend').append(html);
+        }
       },
       error: function error() {
         alert('error');
